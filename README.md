@@ -72,3 +72,8 @@ Create folder:
 
 ```powershell
 New-Item -ItemType Directory -Path C:\NextExplorer1 -Force
+
+Run command in Powershel :
+
+```powershell
+powershell -ExecutionPolicy Bypass -File "C:\NextExplorer1\NextExplorer-Enterprise-Manager.ps1"
